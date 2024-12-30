@@ -2,10 +2,11 @@
 *.ipynb
 
 # local data
-outputs/*
 data/*
 temp*
 test*
+assets/*
+PDF/*
 
 # python
 .ipynb_checkpoints

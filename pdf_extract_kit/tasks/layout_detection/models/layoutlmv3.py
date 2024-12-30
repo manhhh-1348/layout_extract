@@ -70,7 +70,6 @@ class LayoutDetectionLayoutlmv3:
                 result_name = f"{base_name}_layout.png"
                 # Save the visualized result                
                 cv2.imwrite(os.path.join(result_path, result_name), vis_result)
-
             # append result
             results.append({
                 "im_path": im_file,
